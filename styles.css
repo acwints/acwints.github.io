@@ -1,0 +1,22 @@
+td {
+	width: 100px;
+	height: 100px;
+}
+
+.vertical {
+	border-left: solid;
+	border-right: solid;
+}
+
+.horizontal {
+	border-top: solid;
+	border-bottom: solid;
+}
+
+body {
+	text-align: center;
+}
+
+table {
+	margin: auto;
+}
