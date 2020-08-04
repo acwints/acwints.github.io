@@ -42,10 +42,10 @@ body {
 }
 
 .slideshow li:nth-child(1) { 
-  background-image: url("/images/Citi_Bike.jpg");
+  background-image: url("/images/NYC_Tower.jpg");
 }
 .slideshow li:nth-child(2) { 
-  background-image: url("/images/NYC_Roof.jpg");
+  background-image: url("/images/Montana.jpg");
   animation-delay: 10s; 
 }
 .slideshow li:nth-child(3) { 
@@ -57,7 +57,7 @@ body {
   animation-delay: 30s; 
 }
 .slideshow li:nth-child(5) { 
-  background-image: url("/images/NYC_Tower.jpg");
+  background-image: url("/images/Mexico.jpg");
   animation-delay: 40s; 
 }
 
