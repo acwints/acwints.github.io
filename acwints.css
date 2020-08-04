@@ -1,11 +1,11 @@
 body {
 	background-color: #000;
-  background-image: url(
-    "/images/NYC_View.png",
-    "/images/Westside_Highway.png",
-    "/images/Highline.png",
-    "/images/Charlottesville.png",
-    "/images/Battery_Park.png");
+  background-image: 
+    url("/images/NYC_View.png"),
+    url("/images/Westside_Highway.png"),
+    url("/images/Highline.png"),
+    url("/images/Charlottesville.png"),
+    url("/images/Battery_Park.png");
   padding-bottom: 70px;
   padding-top: 70px;
 }
