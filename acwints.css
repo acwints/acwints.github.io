@@ -8,6 +8,7 @@ body {
 	z-index: 1;
   position: relative;
 	text-align: center;
+  opacity: 50;
 }
 
 #landing-header h1 {
