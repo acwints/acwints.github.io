@@ -33,11 +33,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-size: 
-    /*100% 100%*/
-    contain
-    /*cover*/
-    ;
+  background-size: 100% 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   opacity: 0;
@@ -46,10 +42,10 @@ body {
 }
 
 .slideshow li:nth-child(1) { 
-  background-image: url("/images/citi.jpg");
+  background-image: url("/images/Citi_Bike.jpg");
 }
 .slideshow li:nth-child(2) { 
-  background-image: url("/images/Westside_Highway.png");
+  background-image: url("/images/NYC_Roof.jpg");
   animation-delay: 10s; 
 }
 .slideshow li:nth-child(3) { 
