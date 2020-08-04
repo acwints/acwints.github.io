@@ -49,15 +49,15 @@ body {
   animation-delay: 10s; 
 }
 .slideshow li:nth-child(3) { 
-  background-image: url("/images/Highline.png");
+  background-image: url("/images/Sevilla.jpg");
   animation-delay: 20s; 
 }
 .slideshow li:nth-child(4) { 
-  background-image: url("/images/Charlottesville.png");
+  background-image: url("/images/CCD.jpg");
   animation-delay: 30s; 
 }
 .slideshow li:nth-child(5) { 
-  background-image: url("/images/Battery_Park.png");
+  background-image: url("/images/NYC_Tower.jpg");
   animation-delay: 40s; 
 }
 
