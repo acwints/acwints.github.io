@@ -43,7 +43,7 @@ body {
 }
 
 .slideshow li:nth-child(1) { 
-  background-image: url("/images/NYC_Roof.png");
+  background-image: url("/images/citi.jpg");
 }
 .slideshow li:nth-child(2) { 
   background-image: url("/images/Westside_Highway.png");
