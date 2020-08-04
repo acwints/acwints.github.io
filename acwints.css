@@ -42,7 +42,7 @@ body {
 }
 
 .slideshow li:nth-child(1) { 
-  background-image: url(EastHampton.png) 
+  background-image: url('../images/EastHampton.png') 
 }
 .slideshow li:nth-child(2) { 
   background-image: url(http://i.imgur.com/SBEmFpv.jpg);
