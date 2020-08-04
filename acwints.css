@@ -6,9 +6,9 @@ body {
 
 .container #landing-header {
 	z-index: 1;
-  top: 20%;
-	text-align: center;
   position: relative;
+	text-align: center;
+  padding-top: 40vh;
 }
 
 .container #landing-header h1 {
