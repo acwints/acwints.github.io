@@ -1,6 +1,11 @@
 body {
 	background-color: #000;
-
+  background-image: url(
+    "/images/NYC_View.png",
+    "/images/Westside_Highway.png",
+    "/images/Highline.png",
+    "/images/Charlottesville.png",
+    "/images/Battery_Park.png");
   padding-bottom: 70px;
   padding-top: 70px;
 }
@@ -16,70 +21,8 @@ body {
 	color: #fff;
 }
 
-.slideshow {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	z-index: 0;
-	list-style: none;
-	margin: 0;
-	padding 0;
-}
 
-.slideshow li { 
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  opacity: 0;
-  z-index: 0;
-  animation: imageAnimation 50s linear infinite; 
-}
 
-.slideshow li:nth-child(1) { 
-  background-image: url("/images/NYC_View.png");
-}
-.slideshow li:nth-child(2) { 
-  background-image: url("/images/Westside_Highway.png");
-  animation-delay: 10s; 
-}
-.slideshow li:nth-child(3) { 
-  background-image: url("/images/Highline.png");
-  animation-delay: 20s; 
-}
-.slideshow li:nth-child(4) { 
-  background-image: url("/images/Charlottesville.png");
-  animation-delay: 30s; 
-}
-.slideshow li:nth-child(5) { 
-  background-image: url("/images/Battery_Park.png");
-  animation-delay: 40s; 
-}
 
-@keyframes imageAnimation { 
-  0% { 
-    opacity: 0; 
-    animation-timing-function: ease-in;
-  }
-  10% {
-    opacity: 1;
-    animation-timing-function: ease-out;
-  }
-  20% {
-    opacity: 1
-  }
-  30% {
-    opacity: 0
-  }
-}
 
-/* Older browser support - .no-cssanimations class added by modernizr */
-.no-cssanimations .slideshow li {
-	opacity: 1;
-}
+
