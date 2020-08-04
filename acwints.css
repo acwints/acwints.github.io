@@ -42,7 +42,7 @@ body {
 }
 
 .slideshow li:nth-child(1) { 
-  background-image: url() 
+  background-image: (/images/EastHampton.png) 
 }
 .slideshow li:nth-child(2) { 
   background-image: url();
