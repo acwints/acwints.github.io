@@ -4,18 +4,6 @@ body {
   padding-top: 70px;
 }
 
-#landing-header {
-	z-index: 1;
-  position: relative;
-	text-align: center;
-  opacity: 0.7;
-}
-
-#landing-header h1 {
-	color: #fff;
-  opacity: .9
-}
-
 .slideshow {
 	position: fixed;
 	width: 100%;
