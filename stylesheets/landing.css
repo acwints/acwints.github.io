@@ -9,6 +9,8 @@ body {
     float: none;
     text-align: center;
     display: inline-block;
+    display: block!important;
+    float: left !important;
 }
 
 .navbar-brand {
