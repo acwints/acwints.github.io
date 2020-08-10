@@ -1,6 +1,6 @@
 body {
   background-color: #000;
-  background-image: url("https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2767&q=80");
+  background-image: url("../images/Faro.jpg");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -14,10 +14,6 @@ body {
 }
 
 h5 {
-  text-align: center;
-}
-
-.meta-container {
   text-align: center;
 }
 
@@ -35,12 +31,8 @@ img {
   width: 100%;
 }
 
-#about {
-  padding: 20px;
-}
-
 #background {
   background-image: url("https://images.unsplash.com/photo-1569308625515-6c5a7b665eab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
   background-size: cover;
-  padding: 10px;
+  padding: 5px;
 }
