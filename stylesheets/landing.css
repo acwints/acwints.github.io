@@ -8,6 +8,7 @@ body {
 .nav-tabs > li {             /* <- this affects all navbars */
     float: none;
     text-align: center;
+    display: inline-block;
 }
 
 .navbar-brand {
