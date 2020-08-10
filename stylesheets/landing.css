@@ -5,6 +5,10 @@ body {
   font-family: 'Righteous', cursive;
 }
 
+.navbar-brand {
+  font-family: 'Rock Salt', cursive;
+}
+
 .slideshow {
 	position: fixed;
 	width: 100%;
