@@ -5,7 +5,7 @@ body {
   font-family: 'Righteous', cursive;
 }
 
-.nav-tabs > li {             /* <- this affects all navbars */
+.navbar-tabs > li {             /* <- this affects all navbars */
     float: none;
     text-align: center;
     display: inline-block;
