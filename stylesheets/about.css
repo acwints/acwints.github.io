@@ -19,8 +19,12 @@ h5 {
   position: relative;
 }
 
+strong {
+  text-align: center;
+}
+
 h5 button {
-  right: 0;
+  left: 0;
   position: absolute;
 }
 
