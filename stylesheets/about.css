@@ -33,6 +33,7 @@ h5 {
 
 img {
   width: 100%;
+  opacity: 1;
 }
 
 #about {
@@ -40,7 +41,6 @@ img {
 }
 
 #background {
-  background-image: url("https://images.unsplash.com/photo-1569308625515-6c5a7b665eab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
-  background-size: cover;
+  background: rgba(207, 207, 207, 0.9);
   padding: 10px;
 }
