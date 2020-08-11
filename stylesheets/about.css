@@ -15,6 +15,13 @@ body {
 
 h5 {
   text-align: center;
+  text-decoration: underline;
+  position: relative;
+}
+
+h5 button {
+  right: 0;
+  position: absolute;
 }
 
 .meta-container {
