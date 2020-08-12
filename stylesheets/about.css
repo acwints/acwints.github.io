@@ -23,7 +23,7 @@ strong {
   text-align: center;
 }
 
-h5 button {
+h5 > a {
   left: 0;
   position: absolute;
 }
