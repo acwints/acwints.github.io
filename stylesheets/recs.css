@@ -28,7 +28,7 @@ div {
 }
 
 img {
-  max-height: 420px;
+  height: 406px;
   margin: auto;
   display: block;
 }
@@ -51,7 +51,7 @@ iframe {
 }
 
 .well {
-  background-color: #d8ebf0;
+  background-color: #faf8bb;
   color: black;
 }
 
@@ -65,4 +65,12 @@ iframe {
   border-bottom: 2px solid #2f3133;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+}
+
+.panel-footer {
+  border-top: 2px solid #2f3133;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: black;
+  text-align: center;
 }
