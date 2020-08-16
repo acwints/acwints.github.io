@@ -56,9 +56,10 @@ iframe {
   height: 232px;
 }
 
-.well .well-default {
+.well {
   background-color: #faf8bb;
   color: black;
+  margin: 25px;
 }
 
 .panel {
