@@ -5,6 +5,10 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.navbar {
+  margin-top: 10px;
+}
+
 .nav-tabs {
   font-family: 'Righteous', cursive;
 }
