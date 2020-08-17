@@ -90,8 +90,7 @@ iframe {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   color: black;
-  text-align: center;
-  min-height: 100px;
+  min-height: 150px;
 }
 
 .panel-body {
