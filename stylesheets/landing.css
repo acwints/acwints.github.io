@@ -8,8 +8,13 @@ body {
 .nav-tabs {
   font-family: 'Righteous', cursive;
 }
+
 .navbar-brand {
   font-family: 'Rock Salt', cursive;
+}
+
+.btn {
+  padding: 5px;
 }
 
 .slideshow {
