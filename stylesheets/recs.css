@@ -91,7 +91,7 @@ iframe {
   border-bottom-right-radius: 25px;
   color: black;
   text-align: center;
-  min-height: 125px;
+  min-height: 100px;
 }
 
 .panel-body {
