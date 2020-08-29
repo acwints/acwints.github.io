@@ -23,6 +23,17 @@ body {
   }
 }
 
+.well-md {
+  background-color: #d8ebf0;
+  font-style: italic;
+  font-size: 1.25em;
+  color: black;
+  margin: 25px;
+  margin-right: 200px;
+  margin-left: 200px;
+  text-align: center;
+}
+
 .img-thumbnail {
   max-width: 100%;
   height: auto;

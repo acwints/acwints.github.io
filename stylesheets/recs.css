@@ -65,10 +65,21 @@ iframe {
   height: 232px;
 }
 
-.well {
+.well-sm {
   background-image: linear-gradient(to right, rgba(255,0,0,1), rgba(255,0,0,0), rgba(255,0,0,1));
   color: black;
   margin: 25px;
+}
+
+.well-md {
+  background-color: #d8ebf0;
+  font-style: italic;
+  font-size: 1.25em;
+  color: black;
+  margin: 25px;
+  margin-right: 200px;
+  margin-left: 200px;
+  text-align: center;
 }
 
 .panel {
