@@ -65,12 +65,18 @@ body {
     height: 232px;
   }
   
-  .well {
+  .well-sm {
     background-image: linear-gradient(to right, purple, white, purple);
     color: black;
     margin: 25px;
   }
-  
+
+  .well-lg {
+    background-color: blue;
+    color: white;
+    margin: 25px;
+  }
+
   .panel {
     border-radius: 25px;
     background-color: #d8ebf0;
