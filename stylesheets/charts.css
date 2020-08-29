@@ -72,8 +72,8 @@ body {
   }
 
   .well-lg {
-    background-color: blue;
-    color: white;
+    background-color: grey;
+    font-size: 2em;
     margin: 25px;
   }
 
