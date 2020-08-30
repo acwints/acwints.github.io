@@ -50,7 +50,7 @@ img {
 }
 
 .well {
-  background-image: linear-gradient(to right, green, rgba(255,0,0,0), green);
+  background-image: linear-gradient(to right, rgb(195, 255, 98), rgba(255,0,0,0), rgb(195, 255, 98));
   color: black;
   margin: 20px 0;
 }
