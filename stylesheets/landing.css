@@ -22,7 +22,7 @@ body {
 	z-index: 0;
 	list-style: none;
 	margin: 0;
-	padding 0;
+	padding: 0;
 }
 
 .slideshow li { 
@@ -76,7 +76,8 @@ body {
   }
 }
 
- Older browser support - .no-cssanimations class added by modernizr 
+/* Older browser support -  */
+.no-cssanimations class added by modernizr 
 .no-cssanimations .slideshow li {
 	opacity: 1;
 }
