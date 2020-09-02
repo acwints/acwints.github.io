@@ -49,6 +49,8 @@ figcaption {
   color: white;
   margin-bottom: 40px;
   padding: 10px 0;
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 25%;
 }
 
 .img-thumbnail {
