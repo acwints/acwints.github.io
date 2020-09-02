@@ -39,6 +39,8 @@ figure {
   margin: 15px;
   max-width: 100%;
   height: auto;
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 25%;
 }
 
 figcaption {
