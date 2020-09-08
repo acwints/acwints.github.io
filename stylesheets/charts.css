@@ -67,8 +67,10 @@ figcaption {
   align-content: center;
   display: block;
   margin: auto;
+  padding: 10px;
+  opacity: .95;
 }
 
 #border {
-  border: 3px solid rgb(122, 176, 238);
+  border: 4px solid rgb(122, 176, 238);
 }
