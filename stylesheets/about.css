@@ -36,6 +36,8 @@ h5 > a {
 .meta-container {
   text-align: center;
   color: white;
+  padding: auto;
+  margin: auto;
 }
 
 @media (min-width: 768px) {
