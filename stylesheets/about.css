@@ -36,6 +36,9 @@ h5 > a {
 .meta-container {
   text-align: center;
   color: white;
+}
+
+.label .label-default {
   padding: auto;
   margin: auto;
 }
