@@ -28,7 +28,7 @@ body {
 }
 
 .well-md {
-  background-color: #fff4b8;
+  background-color: rgba(255,244,184,.95);
   font-family: 'Comfortaa';
   color: black;
   margin: 25px;
