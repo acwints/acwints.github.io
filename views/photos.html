@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Rock+Salt&display=swap&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Rock+Salt&display=swap&family=Source+Sans+Pro:wght@400;600&display=swap&family=Comfortaa&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 	<script src="https://kit.fontawesome.com/afb8dfa029.js" crossorigin="anonymous"></script>
@@ -22,11 +22,11 @@
   			<ul class="nav nav-tabs">
   				<li role="presentation"><a href="/">Home</a></li>
   				<li role="presentation"><a href="/views/about">About</a></li>
-  				<li role="presentation"><a href="/views/thoughts/all_thoughts">Thoughts</a></li>
-  				<li role="presentation" class="active"><a href="/views/photos">Photos</a></li>
-  				<!-- <li role="presentation"><a href="/views/data">Data</a></li> -->
-  				<li role="presentation"><a href="/views/music">Music</a></li>
   				<li role="presentation"><a href="/views/recs">Recs</a></li>
+  				<li role="presentation"><a href="/views/charts">Charts</a></li>
+  				<li role="presentation"><a href="/views/music">Music</a></li>
+  				<!-- <li role="presentation"><a href="/views/thoughts/all_thoughts">Thoughts</a></li> -->
+  				<li role="presentation" class="active"><a href="/views/photos">Photos</a></li>
   				<li class="pull-right" role="presentation"><a class="navbar-brand" href="/">ACW</a></li>
 			</ul>
   		</div>
@@ -34,49 +34,73 @@
 	<!-- Header Ends Here -->
 
 	<section class="container" id="photos">
+		<div class="row row-equal hidden-xs">
+			<div class="col col-equal col-xs-12 well well-md">
+				<p>Am I a photographer? &nbsp;-&nbsp; No. &nbsp;&nbsp;&nbsp;&nbsp; Do I have an iPhone? &nbsp;-&nbsp; Yes. 
+					<br>
+					<br>
+					I have no idea if they're actually good or not, but occassionally I'll snap a shot that I like, and I'll post it here. To see more, you can follow me on 
+						<a href="https://www.instagram.com/acwints">Instagram</a>.
+				</p>
+			</div>
+		</div>
 		<div class="row row-equal">
-			<div class="col col-equal col-md-4 col-sm-6 col-xs-12">
+			<figure class="col col-equal col-md-4 col-sm-6 col-xs-12">
 				<img class="img-thumbnail" src="../images/Highline.jpg">
-			</div>
-			<div class="col col-equal col-md-4 col-sm-6 col-xs-12">
+				<figcaption>Highline &nbsp;&nbsp;|&nbsp;&nbsp; <em>New York, NY</em></figcaption>
+			</figure>
+			<figure class="col col-equal col-md-4 col-sm-6 col-xs-12">
 				<img class="img-thumbnail" src="../images/Charlottesville.jpg">
-			</div>
-			<div class="col col-equal col-md-4 col-sm-6 col-xs-12">
+				<figcaption>Train Tracks &nbsp;&nbsp;|&nbsp;&nbsp; <em>Charlottesville, VA</em></figcaption>
+			</figure>
+			<figure class="col col-equal col-md-4 col-sm-6 col-xs-12">
 				<img class="img-thumbnail" src="../images/Hogback.jpg">
-			</div>
-			<div class="col col-equal col-md-4 col-sm-6 col-xs-12">
+				<figcaption>Hogback &nbsp;&nbsp;|&nbsp;&nbsp; <em>Lexington, VA</em></figcaption>
+			</figure>
+			<figure class="col col-equal col-md-4 col-sm-6 col-xs-12">
 				<img class="img-thumbnail" src="../images/Hudson.jpg">
-			</div>
-			<div class="col col-equal col-md-4 col-sm-6 col-xs-12">
+				<figcaption>Hudson &nbsp;&nbsp;|&nbsp;&nbsp; <em>New York, NY</em></figcaption>
+			</figure>
+			<figure class="col col-equal col-md-4 col-sm-6 col-xs-12">
 				<img class="img-thumbnail" src="../images/Westside.jpg">
-			</div>
-			<div class="col col-equal col-md-4 col-sm-6 col-xs-12">
+				<figcaption>West Side Highway &nbsp;&nbsp;|&nbsp;&nbsp; <em>New York, NY</em></figcaption>
+			</figure>
+			<figure class="col col-equal col-md-4 col-sm-6 col-xs-12">
 				<img class="img-thumbnail" src="../images/BPC.jpg">
-			</div>
-			<div class="col col-equal col-md-4 col-sm-6 col-xs-12">
+				<figcaption>Battery Park &nbsp;&nbsp;|&nbsp;&nbsp; <em>New York, NY</em></figcaption>
+			</figure>
+			<figure class="col col-equal col-md-4 col-sm-6 col-xs-12">
 				<img class="img-thumbnail" src="../images/Paris.jpg">
-			</div>
-			<div class="col col-equal col-md-4 col-sm-6 col-xs-12">
+				<figcaption>The Louvre &nbsp;&nbsp;|&nbsp;&nbsp; <em>Paris, France</em></figcaption>
+			</figure>
+			<figure class="col col-equal col-md-4 col-sm-6 col-xs-12">
 				<img class="img-thumbnail" src="../images/St_Michel.jpg">
-			</div>
-			<div class="col col-equal col-md-4 col-sm-6 col-xs-12">
+				<figcaption>Mont St. Michel &nbsp;&nbsp;|&nbsp;&nbsp; <em>Normandy, France</em></figcaption>
+			</figure>
+			<figure class="col col-equal col-md-4 col-sm-6 col-xs-12">
 				<img class="img-thumbnail" src="../images/Big_Sky.jpg">
-			</div>
-			<div class="col col-equal col-md-4 col-sm-6 col-xs-12">
+				<figcaption>Lone Peak &nbsp;&nbsp;|&nbsp;&nbsp; <em>Big Sky, MT</em></figcaption>
+			</figure>
+			<figure class="col col-equal col-md-4 col-sm-6 col-xs-12">
 				<img class="img-thumbnail" src="../images/Buddha.jpg">
-			</div>
-			<div class="col col-equal col-md-4 col-sm-6 col-xs-12">
+				<figcaption>Ewam Garden &nbsp;&nbsp;|&nbsp;&nbsp; <em>Arlee, MT</em></figcaption>
+			</figure>
+			<figure class="col col-equal col-md-4 col-sm-6 col-xs-12">
 				<img class="img-thumbnail" src="../images/Tennis.jpg">
-			</div>
-			<div class="col col-equal col-md-4 col-sm-6 col-xs-12">
+				<figcaption>Chelsea Piers &nbsp;&nbsp;|&nbsp;&nbsp; <em>New York, NY</em></figcaption>
+			</figure>
+			<figure class="col col-equal col-md-4 col-sm-6 col-xs-12">
 				<img class="img-thumbnail" src="../images/St_Michel_2.jpg">
-			</div>
-			<div class="col col-equal col-md-4 col-sm-6 col-xs-12">
+				<figcaption>Mont St. Michel &nbsp;&nbsp;|&nbsp;&nbsp; <em>Normandy, France</em></figcaption>
+			</figure>
+			<figure class="col col-equal col-md-4 col-sm-6 col-xs-12">
 				<img class="img-thumbnail" src="../images/Hourglass.jpg">
-			</div>
-			<div class="col col-equal col-md-4 col-sm-6 col-xs-12">
+				<figcaption>Second Hourglass &nbsp;&nbsp;|&nbsp;&nbsp; <em>Yellowstone, MT</em></figcaption>
+			</figure>
+			<figure class="col col-equal col-md-4 col-sm-6 col-xs-12">
 				<img class="img-thumbnail" src="../images/Eifel.jpg">
-			</div>
+				<figcaption>Eifel Tower &nbsp;&nbsp;|&nbsp;&nbsp; <em>Paris, France</em></figcaption>
+			</figure>
 		</div>
 	</section>
 

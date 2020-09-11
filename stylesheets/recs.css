@@ -6,7 +6,7 @@ body {
 }
 
 .nav-tabs {
-  font-family: 'Righteous', cursive;
+  font-family: 'Comfortaa';
 }
 
 .navbar-brand {
@@ -57,6 +57,7 @@ img {
   }
   .col-equal {
     margin: auto
+  }
 }  
 
 iframe {
@@ -64,10 +65,19 @@ iframe {
   height: 232px;
 }
 
-.well {
+.well-sm {
   background-image: linear-gradient(to right, rgba(255,0,0,1), rgba(255,0,0,0), rgba(255,0,0,1));
   color: black;
   margin: 25px;
+}
+
+.well-md {
+  background-color: rgba(255,244,184,.95);
+  font-family: 'Comfortaa';
+  font-size: 1.25em;
+  color: black;
+  margin: 25px 20%;
+  text-align: center;
 }
 
 .panel {

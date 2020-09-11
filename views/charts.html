@@ -4,12 +4,12 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Rock+Salt&display=swap&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Rock+Salt&display=swap&family=Source+Sans+Pro:wght@400;600&display=swap&family=Comfortaa&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 	<script src="https://kit.fontawesome.com/afb8dfa029.js" crossorigin="anonymous"></script>
 
-	<link rel="stylesheet" type="text/css" href="../stylesheets/recs.css">
+	<link rel="stylesheet" type="text/css" href="../stylesheets/charts.css">
 
 	<title>acwints.com</title>
 
@@ -21,12 +21,12 @@
         <div class="container">
   			<ul class="nav nav-tabs">
   				<li role="presentation"><a href="/">Home</a></li>
-  				<li role="presentation"><a href="/views/about">About</a></li>
-  				<li role="presentation"><a href="/views/thoughts/all_thoughts">Thoughts</a></li>
+				<li role="presentation"><a href="/views/about">About</a></li>
+				<li role="presentation"><a href="/views/recs">Recs</a></li>
+				<li role="presentation" class="active"><a href="/views/charts">Charts</a></li>
+				<li role="presentation"><a href="/views/music">Music</a></li>
+  				<!-- <li role="presentation"><a href="/views/thoughts/all_thoughts">Thoughts</a></li> -->
   				<li role="presentation"><a href="/views/photos">Photos</a></li>
-  				<li role="presentation" class="active"><a href="/views/charts">Charts</a></li>
-  				<li role="presentation"><a href="/views/music">Music</a></li>
-  				<li role="presentation"><a href="/views/recs">Recs</a></li>
   				<li class="pull-right" role="presentation"><a class="navbar-brand" href="/">ACW</a></li>
 			</ul>
   		</div>
@@ -34,29 +34,103 @@
 	<!-- Header Ends Here -->
 
 	<div class="container">
-		<div class="row row-equal">
-			<div class="col col-equal col-xs-12 well well-sm">
-				<h4><strong>August 2020</strong></h4>
+		<div class="row row-equal hidden-xs">
+			<div class="col col-equal col-xs-12 well well-md">
+				<p>A picture is worth a thousand words and charts are the best kind of pictures. There's data everywhere and I want to leverage it to shape my perspective of the world, so I'm storing the coolest charts/graphs/etc. from around the internet, presented with minimal context, as a foundation for my understanding of different trends and phenomena across various subjects and interests.</p>
 			</div>
-		</div>
-		<div class="row row-equal">
-			<div class="col col-equal col-md-4 col-sm-6 col-xs-12">
-				<div class="panel panel-primary">
-					<div class="panel-header">
-						<span class="label label-info pull-right">Article</span>
-						<h5><strong>
-							<a href="https://www.washingtonpost.com/news/wonk/wp/2014/09/25/think-you-drink-a-lot-this-chart-will-tell-you/">
-							Think you drink a lot?</a>
-						</strong></h5>
-					</div>
-					<div class="panel-body">
-						<img class="thumbnail" src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/5WP4HSGEVI4SZGFPA3ZQZBGPMU.png&w=916">
-					</div>
-					<div class="panel-footer">
-						<p>Alcohol use is anything but a bell curve.</p>
-					</div>
-				</div>
-			</div>
+        </div>
+        <div class="row row-equal">
+			<figure class="col col-equal col-sm-6 col-xs-12">
+				<img class="img-thumbnail" id="border" src="https://pbs.twimg.com/media/EhkfrTKWkAMRFYu?format=jpg&name=large">
+				<figcaption>
+					<a href="https://twitter.com/AlecStapp/status/1304109378648371203/photo/1">
+						<strong>F-1 Student Visas</strong></a>
+				</figcaption>
+			</figure>
+			<figure class="col col-equal col-sm-6 col-xs-12">
+				<img class="img-thumbnail" id="border" src="https://pbs.twimg.com/media/EhfkA6bWsAIhvHA?format=jpg&name=small">
+				<figcaption>
+					<a href="https://twitter.com/PeterMallouk/status/1303761325752020992/photo/1">
+						<strong>5 Year IPO Returns</strong></a>
+				</figcaption>
+			</figure>
+			<figure class="col col-equal col-sm-6 col-xs-12">
+				<img class="img-thumbnail" id="border" src="https://pbs.twimg.com/media/EhbBc9lXYAA9PsL?format=jpg&name=medium">
+				<figcaption>
+					<a href="https://twitter.com/JuliaLaRoche/status/1303441878210224135/photo/1">
+						<strong>Retail Investor Activity</strong></a>
+				</figcaption>
+			</figure>
+			<figure class="col col-equal col-sm-6 col-xs-12">
+				<img class="img-thumbnail" id="border" src="https://www.hiringlab.org/wp-content/uploads/2020/08/Postings_US_english.8.28.png">
+				<figcaption>
+					<a href="https://www.hiringlab.org/2020/08/31/job-postings-through-august-28/?utm_source=morning_brew">
+						<strong>Job Postings on Indeed</strong></a>
+				</figcaption>
+			</figure>
+			<figure class="col col-equal col-sm-6 col-xs-12">
+				<img class="img-thumbnail" id="border" src="https://sailthru-media.s3.amazonaws.com/composer/images/sailthru-prod-53o/Screen%20Shot%202020-09-03%20at%201.37.01%20PM.png">
+				<figcaption>
+					<a href="https://link.investopedia.com/view/5e21c9e1e763e4741e3da9b3cr2ww.cbms/35a8c152">
+						<strong>Average Wages by Country</strong></a>
+				</figcaption>
+			</figure>
+			<figure class="col col-equal col-sm-6 col-xs-12">
+				<img class="img-thumbnail" id="border" src="https://pbs.twimg.com/media/EhHycCgUcAAVDgl?format=png&name=small">
+				<figcaption>
+					<a href="https://twitter.com/anoushkavaswani/status/1302088717172006912">
+						<strong>Marriot vs. Airbnb</strong></a>
+				</figcaption>
+			</figure>
+			<figure class="col col-equal col-sm-6 col-xs-12">
+				<img class="img-thumbnail" id="border" src="https://sailthru-media.s3.amazonaws.com/composer/images/sailthru-prod-53o/0bXuq-u-s-unemployment-rate%20%285%29_1.png">
+				<figcaption>
+					<a href="https://link.investopedia.com/view/5e21c9e1e763e4741e3da9b3cr39f.bzm8/94efa33c">
+						<strong>U.S. Unemployment Rate</strong></a>
+				</figcaption>
+			</figure>
+			<figure class="col col-equal col-sm-6 col-xs-12">
+				<img class="img-thumbnail" id="border" src="https://pbs.twimg.com/media/EhFIvFbUMAAqGxX?format=jpg&name=medium">
+				<figcaption>
+					<a href="https://twitter.com/auren/status/1301902284385738752">
+						<strong>American College Completion Rates</strong></a>
+				</figcaption>
+			</figure>
+			<figure class="col col-equal col-sm-6 col-xs-12">
+				<img class="img-thumbnail" id="border" src="https://pbs.twimg.com/media/EhEqxGAXkAI1CNA?format=jpg&name=medium">
+				<figcaption>
+					<a href="https://twitter.com/zerohedge/status/1301868799994531840">
+						<strong>Monthly Change in Employed Workers</strong></a>
+				</figcaption>
+			</figure>
+			<figure class="col col-equal col-sm-6 col-xs-12">
+				<img class="img-thumbnail" id="border" src="https://pbs.twimg.com/media/EgoeIhKX0AAn65T?format=jpg&name=medium">
+				<figcaption>
+					<a href="https://twitter.com/zerohedge/status/1299884607270199297/photo/1">
+						<strong>Credit Card Interest Rates</strong></a>
+				</figcaption>
+			</figure>
+			<figure class="col col-equal col-sm-6 col-xs-12">
+				<img class="img-thumbnail" id="border" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/jcem/92/1/10.1210_jc.2006-1375/1/m_zeg0120647450001.jpeg?Expires=1601545211&Signature=XlXcN2-kLJCNVc24Gyz71fns86Key-Toa3K8s23XXwrND3sdlVZAmcnf-f24LUh9koge9cxv5dKLFmTaNcFNfkYZmeQYFvVaTerwzyU-NxJPoIdDVx4R38Jm4HOpp88x~g1i0YpvH9IrqnamoeYjq9oCF~1L5yQDRHcDX0YlIJhsl5q0Slp~MJjNl-htu5sso6t7e5iCYbunAmQJNCE7JO1M6S7VNyRxWHhEhBdrrA19xmOXOVJPsWr-BXRjpQakNc~55Ylh2Aj3OQUMS8JwQM-DvelURaIx0~9OvAEgN2FqKUInEb1bSMIL7eUYwEsspJEQH8jv0cxk-wPz1ZlWag__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA">
+				<figcaption>
+					<a href="https://academic.oup.com/jcem/article/92/1/196/2598434">
+						<strong>Population-Level Decline in Testosterone</strong></a>
+				</figcaption>
+			</figure>
+			<figure class="col col-equal col-sm-6 col-xs-12">
+				<img class="img-thumbnail" id="border" src="https://pbs.twimg.com/media/EgIZkFRUMAA_-TY?format=jpg&name=small">
+				<figcaption>
+					<a href="https://twitter.com/balajis/status/1297627757250191360?s=20">
+						<strong>2020 Occupancy Over Time</strong></a>
+				</figcaption>
+			</figure>
+			<figure class="col col-equal col-sm-6 col-xs-12">
+				<img class="img-thumbnail" id="border" src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/5WP4HSGEVI4SZGFPA3ZQZBGPMU.png&w=916">
+				<figcaption>
+					<a href="https://www.washingtonpost.com/news/wonk/wp/2014/09/25/think-you-drink-a-lot-this-chart-will-tell-you/">
+						<strong>Think You Drink A Lot?</strong></a>
+				</figcaption>
+			</figure>
 		</div>
 	</div>
 
