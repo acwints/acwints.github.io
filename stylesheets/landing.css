@@ -19,6 +19,7 @@ body {
   margin: 5% 0%;
   padding: 50% 0%;
   align-content: right;
+  animation: imageAnimation 0s linear infinite; 
 }
 
 .slideshow {
