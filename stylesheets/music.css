@@ -43,11 +43,6 @@ p {
   font-size: 0.8em;
 }
 
-a {
-  color: rgb(122, 176, 238);
-  text-shadow: .2px .2px white;
-}
-
 .week {
   text-decoration: underline;
 }

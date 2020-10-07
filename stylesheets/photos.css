@@ -13,6 +13,11 @@ body {
   font-family: 'Rock Salt', cursive;
 }
 
+a {
+  color: rgb(122, 176, 238);
+  text-shadow: .2px .2px white;
+}
+
 @media (min-width: 768px) {
   .row-equal {
     display: flex;
