@@ -13,7 +13,7 @@ body {
   font-family: 'Rock Salt', cursive;
 }
 
-a {
+figcaption > a {
   color: rgb(122, 176, 238);
   text-shadow: .2px .2px white;
   text-decoration: underline;
