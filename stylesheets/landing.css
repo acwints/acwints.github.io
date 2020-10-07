@@ -13,6 +13,10 @@ body {
   font-family: 'Rock Salt', cursive;
 }
 
+iframe {
+  z-index: 3;
+}
+
 .slideshow {
 	position: fixed;
 	width: 100%;
