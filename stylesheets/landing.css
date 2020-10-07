@@ -17,6 +17,7 @@ body {
   display: block;
   z-index: 3;
   margin: auto;
+  float: right;
 }
 
 .slideshow {
