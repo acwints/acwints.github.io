@@ -16,6 +16,7 @@ body {
 a {
   color: rgb(122, 176, 238);
   text-shadow: .2px .2px white;
+  text-decoration: underline;
 }
 
 @media (min-width: 768px) {
