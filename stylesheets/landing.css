@@ -20,7 +20,6 @@ body {
   padding: 5% 0%;
   align-content: right;
   float: right;
-  animation: imageAnimation 0s linear infinite; 
 }
 
 .slideshow {
