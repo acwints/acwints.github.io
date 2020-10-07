@@ -14,10 +14,12 @@ body {
 }
 
 #emailcapture {
-  /* display: block; */
+  display: block;
   z-index: 3;
   margin: 20% 0%;
-  /* float: right; */
+  padding: 20% 0%;
+  align-content: right;
+  float: right;
 }
 
 .slideshow {
