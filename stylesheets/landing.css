@@ -14,9 +14,12 @@ body {
 }
 
 .emailcapture {
+  z-index: 3;
+}
+
+iframe {
   position: fixed;
   display: block;
-  z-index: 3;
   margin: 5% 0%;
   padding: 5% 0%;
   align-content: right;
