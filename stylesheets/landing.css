@@ -15,12 +15,7 @@ body {
 
 #emailcapture {
   display: block;
-  position: fixed;
   z-index: 3;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
-  align-content: center;
   margin: auto;
 }
 
