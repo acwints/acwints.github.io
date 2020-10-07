@@ -20,6 +20,7 @@ body {
   justify-content: center;
   justify-items: center;
   align-content: center;
+  margin: auto;
 }
 
 .slideshow {
