@@ -16,6 +16,8 @@ body {
 #emailcapture {
   position: fixed;
   z-index: 3;
+  align-items: center;
+  justify-content: center;
 }
 
 .slideshow {
