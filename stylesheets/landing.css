@@ -19,6 +19,11 @@ body {
   padding: auto;
 }
 
+span .label {
+  text-align: left;
+  padding: auto;
+}
+
 .panel {
   margin: auto;
   padding: auto;
