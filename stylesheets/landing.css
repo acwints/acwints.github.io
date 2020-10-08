@@ -15,12 +15,12 @@ body {
 
 .emailcapture {
   z-index: 3;
-  margin: 10% auto;
+  margin: auto;
   padding: auto;
 }
 
 .panel {
-  margin: 10% auto;
+  margin: 20px auto;
   padding: auto;
   text-align: center;
   justify-items: center;
