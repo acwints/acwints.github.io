@@ -19,6 +19,11 @@ body {
   padding: auto;
 }
 
+.panel {
+  margin: auto;
+  padding: auto;
+}
+
 .panel-body {
   text-align: center;
   justify-items: center;
