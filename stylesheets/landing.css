@@ -17,7 +17,13 @@ body {
   z-index: 3;
 }
 
-.panel {
+.panel-body {
+  text-align: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.panel-footer {
   text-align: center;
   justify-items: center;
   align-content: center;
