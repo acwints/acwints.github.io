@@ -31,24 +31,17 @@
   				<li role="presentation"><a href="/views/music">Music</a></li>
   				<!-- <li role="presentation"><a href="/views/thoughts/all_thoughts">Thoughts</a></li> -->
   				<li role="presentation"><a href="/views/photos">Photos</a></li>
+				<form class="emailcapture input-group mb3" name="submit-to-google-sheet" novalidate>
+					<input class="emailcapture form-control" id="email" name="email" type="email" placeholder="Email" required>
+					<button class="emailcapture btn btn-primary input-group-append" type="submit" onclick="submitForm()">Send</button>
+				</form>
   				<li class="pull-right" role="presentation"><a class="hidden-xs hidden-sm btn btn-primary" href="/views/recs">Explore</a></li>
   				<li class="pull-right" role="presentation"><a class="navbar-brand" href="/">ACW</a></li>
 			</ul>
   		</div>
 	</nav>
 	<!-- Header Ends Here -->
-	<div class="container emailcapture">
-		<div class="row row-equal">
-			<div class="col col-equal"></div>
-			<div class="col col-equal"></div>
-			<div class="col col-equal emailcapture">
-				<form class="emailcapture input-group mb3" name="submit-to-google-sheet" novalidate>
-					<input class="emailcapture form-control" id="email" name="email" type="email" placeholder="Email" required>
-					<button class="emailcapture btn btn-primary input-group-append" type="submit" onclick="submitForm()">Send</button>
-				</form>
-			</div>
-		</div>
-	</div>
+	
 	<ul class="slideshow">
 		<li></li>
 		<li></li>
