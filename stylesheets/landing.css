@@ -17,6 +17,12 @@ body {
   z-index: 3;
 }
 
+.panel {
+  text-align: center;
+  justify-items: center;
+  align-content: center;
+}
+
 form {
   z-index: 3;
   position: fixed;
