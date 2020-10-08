@@ -23,16 +23,6 @@ form {
   display: block;
   margin: 5% 0%;
   padding: 5% 0%;
-  align-content: right;
-  float: right;
-}
-
-iframe {
-  position: fixed;
-  display: block;
-  margin: 5% 0%;
-  padding: 5% 0%;
-  align-content: right;
   float: right;
 }
 
