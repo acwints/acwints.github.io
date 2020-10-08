@@ -20,9 +20,11 @@ body {
 }
 
 span .label {
+  color: #337ab7;
   align-content: left;
   text-align: left;
   padding: auto;
+  margin: auto;
 }
 
 .panel {
