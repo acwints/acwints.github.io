@@ -22,6 +22,9 @@ body {
 .panel {
   margin: 10% auto;
   padding: auto;
+  text-align: center;
+  justify-items: center;
+  align-content: center;
 }
 
 .panel-body {
