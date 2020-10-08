@@ -8,7 +8,11 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 	<script src="https://kit.fontawesome.com/afb8dfa029.js" crossorigin="anonymous"></script>
-
+	<script> 
+        function submitForm(){ 
+            document.getElementById('email').value=''; 
+		}
+	</script>
 	<link rel="stylesheet" type="text/css" href="/stylesheets/landing.css">
 
 	<title>acwints.com</title>
@@ -42,9 +46,10 @@
 			</iframe>
 		</div> 
 		<div class="col col-equal emailcapture">
-			<form class="emailcapture" name="submit-to-google-sheet">
-				<input class="emailcapture" name="email" type="email" placeholder="Email" required>
-				<button class="emailcapture" type="submit">Send</button>
+			<form class="emailcapture" name="submit-to-google-sheet" novalidate>
+				<label class="label">Email address</label>
+				<input class="emailcapture" id="email" name="email" type="email" placeholder="Email" required>
+				<button class="emailcapture btn btn-primary" type="submit" onclick="submitForm()">Send</button>
 			</form>
 		</div>
 	</div>
@@ -76,10 +81,10 @@
 		const form = document.forms['submit-to-google-sheet']
 
 		form.addEventListener('submit', e => {
-			e.preventDefault()
+			// e.preventDefault()
 			fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-				.then(response => print('Success!', response))
-				.catch(error => print('Error!', error.message))
+				.then(response => console.log('Success!', response))
+				// .catch(error => console.error('Error!', error.message))
 		})
 	</script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
