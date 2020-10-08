@@ -20,8 +20,11 @@ body {
 }
 
 .panel {
-  margin: 65% auto auto 60%;
+  margin: auto;
   padding: auto;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
   text-align: center;
   justify-items: center;
   align-content: center;
