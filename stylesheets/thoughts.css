@@ -54,3 +54,9 @@ img {
   color: black;
   margin: 20px 0;
 }
+
+iframe {
+  display: block;
+  height: 650px;
+  width: 100%;
+}
